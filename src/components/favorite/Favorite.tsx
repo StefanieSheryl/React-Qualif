@@ -19,7 +19,7 @@ export default function FavouriteButton({...props} : Props){
             setIsFav(false)
             let favList = JSON.parse(favListStorage)
             favList.map((fav:any)=>{
-                if(fav["track"] == props.track){
+                if(fav["track"] === props.track){
                     setIsFav(true)
                 } 
             })

@@ -13,7 +13,6 @@ import Home from './components/pages/Home';
 import Favourite from './components/pages/Favourite';
 import { useState } from 'react';
 import { THEME, ThemeContext } from './components/lib/context/ThemeContext';
-import { useContext } from "react";
 
 
 const client = new ApolloClient({

@@ -14,7 +14,7 @@ export default function Home(){
             <div>
                 <div className={`flex items-center justify-center font-semibold text-white p-6 mb-4 ${theme.background1} w-full sm:text-6xl text-xl`}>SRotify</div>
                 <div className={`flex justify-center h-40 sm:h-80 w-5/5 ${theme.background8} bg-opacity-60 m-4 rounded-xl`}>
-                    <img src = {process.env.PUBLIC_URL + "/images/search.png"} className="m-4"/>
+                    <img src = {process.env.PUBLIC_URL + "/images/search.png"} className="m-4" alt=""/>
                     <div className="flex flex-col justify-center mr-4">
                         <div className="font-bold text-blue-400 text-s sm:text-3xl"> Welcome to SRotify!</div>
                         <div className="font-bold text-blue-300 mt-2 text-xs sm:text-2xl"> Start Searching Artists!</div>

@@ -1,6 +1,6 @@
 import NavBar from "../navBar/NavBar";
 import { ThemeContext } from "../lib/context/ThemeContext";
-import { useContext, useEffect } from "react";
+import { useContext} from "react";
 import FavouriteButton from "../favorite/Favorite";
 
 export default function Favourite(){
