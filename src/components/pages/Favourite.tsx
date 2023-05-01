@@ -13,10 +13,10 @@ export default function Favourite(){
     }else{
         empty = false
         favList = JSON.parse(favListStorage)
-    }
-
-    if(favList.length === 0){
-        empty = true
+        
+        if(favList.length === 0){
+            empty = true
+        }
     }
 
     //console.log(favList.length)
