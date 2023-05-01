@@ -17,7 +17,7 @@ import { useContext } from "react";
 
 
 const client = new ApolloClient({
-  uri: "http://127.0.0.1:8080/query",
+  uri: "https://graphql-spotify-mbee.up.railway.app/query",
   cache: new InMemoryCache(),
 });
 
