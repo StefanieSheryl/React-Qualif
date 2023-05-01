@@ -21,7 +21,9 @@ export default function FavouriteButton({...props} : Props){
             favList.map((fav:any)=>{
                 if(fav["track"] === props.track){
                     setIsFav(true)
+                    return 1
                 } 
+                return 0
             })
         }
     }

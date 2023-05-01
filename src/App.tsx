@@ -2,9 +2,7 @@ import './App.css';
 import { 
   ApolloClient, 
   InMemoryCache, 
-  ApolloProvider, 
-  gql 
-} from '@apollo/client';
+  ApolloProvider} from '@apollo/client';
 import StartPage from './components/pages/StartPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Search from './components/pages/Search';
